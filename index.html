@@ -1,0 +1,781 @@
+<!doctype html>
+    <html>
+    
+<!-- Mirrored from demo.webplusinfotech.net/hattongold/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2022 03:28:45 GMT -->
+    <head>
+        <meta charset="utf-8">
+        <title>HATTON GOLD</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="images/icon.png">
+        
+        <!--============================ Bootstrap ====================================-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!--============================ Style ====================================-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!--============================ Fonts ====================================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!--============================ Products ====================================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
+    </head>
+    
+    
+    <body>   
+        <!--============================ Header ====================================-->
+		<div class="header">
+            <div class="mob-header">
+            	<div class="container">
+                	<div class="row">
+                    	<div class="col-lg-12 mob-online">
+                        	<a class="shop-detail-btn" href="wishlist.html"><span></span><span>Wishlist-0</span></a>
+                        	<a class="shop-detail-btn" href="cart.html"><span></span><span>My Cart-0</span></a>
+                        	<a class="shop-detail-btn" href="#" data-bs-toggle="modal" data-bs-target="#logInModal"><span></span><span>My Account</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	<div class="top-header">
+            	<div class="container">
+                	<div class="row">
+                    	<div class="col-xl-3 col-lg-12">
+                        	<div class="top-number">
+                            	<a href="tel:+442072422884"><span></span> +44 (0) 20 7242 2884</a>
+                         	</div>
+                        </div>
+                    	<div class="col-xl-6 col-lg-12">
+                        	<div class="top-message">
+                            	<p>We have extended our Christmas Returns Policy until 31.12.2021</p>
+                            </div>
+                        </div>
+                    	<div class="col-xl-3 col-lg-12">
+                        	<div class="top-star">
+                                <img src="images/star.png">
+                                <img src="images/star-single.png">
+                                <img src="images/trustpilot.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-header">
+            	<div class="container">
+                	<div class="row">
+                    	<div class="col-lg-5 d-flex">
+                        	<div class="shop-detail-btn"><span></span><a href="wishlist.html">Wishlist-0</a></div>
+                        	<div class="shop-detail-btn"><span></span><a href="cart.html">My Cart-0</a></div>
+                        </div>
+                    	<div class="col-lg-2 offset-lg-0 col-md-8 offset-md-2">
+                        	<a href="index-2.html"><img class="main-logo" src="images/logo.png"></a>
+                        </div>
+                    	<div class="col-lg-5 col-md-2 d-flex justify-content-end">
+                            <div class="search-bar" id="searchPanel">
+                                <form action="#" class="search">
+                                    <input class="search-box" type="text" id="search" name="search-box" placeholder="Search..."/>
+                                    <ul class="results">
+                                        <li><a href="#">Search Result : Men's Rings<br /><span>At Hatton Jewellers we stock a wide range of solid gold rings for men, UK stock and available in white...</span></a></li>
+                                        <li><a href="#">Search Result : Keeper Rings<br /><span>Explore our men’s gold keeper rings, available in solid 9ct yellow gold across a wide range of styles...</span></a></li>
+                                        <li><a href="#">Search Result : Men's Rings<br /><span>At Hatton Jewellers we stock a wide range of solid gold rings for men, UK stock and available in white...</span></a></li>
+                                        <li><a href="#">Search Result : Keeper Rings<br /><span>Explore our men’s gold keeper rings, available in solid 9ct yellow gold across a wide range of styles...</span></a></li>
+                                    </ul>
+                                    <a class="search-btn shop-detail-btn search" onclick="toggleField()"><span class="fa fa-search"></span>Search</a>
+                                </form>
+                            </div>
+                        	<div class="shop-detail-btn"><span></span><a href="#" data-bs-toggle="modal" data-bs-target="#logInModal">My Account</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navi" id="stickyheader" role="alert">
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                    	<a href="index-2.html"><img class="main-logo" src="images/logo.png" alt="HATTON GOLD"></a>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggler collapsed pull-right" data-toggle="slide-collapse" data-target="#slide-navbar-collapse">
+                                <span class="navbar-toggle-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="slide-navbar-collapse">
+                            <ul class="navbar-nav m-xl-auto">
+                                <li class="nav-item">
+                                    <a class="nav-logo" href="index-2.html"><img src="images/logo-w.png" alt="HATTON GOLD"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="nav-search">
+                                    	<div id="searchPanel">
+                                            <form action="#" class="search" >
+                                                <input type="text" id="search" placeholder="Search Here...">
+                                                <ul class="results">
+                                                    <li><a href="#">Search Result : Men's Rings<br /><span>At Hatton Jewellers we stock a wide range of solid gold rings for men, UK stock and available in white...</span></a></li>
+                                                    <li><a href="#">Search Result : Keeper Rings<br /><span>Explore our men’s gold keeper rings, available in solid 9ct yellow gold across a wide range of styles...</span></a></li>
+                                                    <li><a href="#">Search Result : Men's Rings<br /><span>At Hatton Jewellers we stock a wide range of solid gold rings for men, UK stock and available in white...</span></a></li>
+                                                    <li><a href="#">Search Result : Keeper Rings<br /><span>Explore our men’s gold keeper rings, available in solid 9ct yellow gold across a wide range of styles...</span></a></li>
+                                                </ul>
+                                                <button type="submit"><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown megha">
+                                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">RINGS</a>
+                                    <div class="dropdown-menu megha-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="row">
+                                            <div class="col-xl-4">
+                                                <h3>Men's Rings</h3>
+                                                <div class="row">
+                                                	<div class="col-xl-12">
+                                                    	<ul class="column-2">
+                                                            <li><a class="dropdown-item" href="products.html">Keeper Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Saddle Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Buckle Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Pyramid Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Rolex / Cuban Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Boxing Glove Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Claddagh Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Knot Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Signet Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Gem-set Rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Horse rings</a></li>
+                                                            <li><a class="dropdown-item" href="products.html">Children/ Baby rings</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h3>Diamond Rings</h3>
+                                                <ul>
+                                                    <li><a class="dropdown-item" href="products.html">Diamond Eternity Rings</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Diamond Cluster Rings</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Diamond Cocktail and Dress Rings</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-2">
+                                                <h3>Others Rings</h3>
+                                                <ul>
+                                                    <li><a class="dropdown-item" href="products.html">Wedding Bands</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Gemstone Rings</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Ring Mounts</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Dress Rings</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Name & Initial Rings</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-3">
+                                            	<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                        	<img src="images/menu-ring-1.jpg" class="d-block w-100">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                        	<img src="images/menu-ring-2.jpg" class="d-block w-100">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                        	<img src="images/menu-ring-3.jpg" class="d-block w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a href="products.html" class="link-txt">View all Collection </a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">CHAINS</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="products.html">Curb Chains</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Belcher Chains</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Miami Cuban Chains</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Rope Chains</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Byzantine Chains</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Ladies Chains</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Other chains</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown megha">
+                                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">BRACELETS</a>
+                                    <div class="dropdown-menu megha-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="row">
+                                            <div class="col-xl-3">
+                                                <h3>Men's Bracelets</h3>
+                                                <ul>
+                                                    <li><a class="dropdown-item" href="products.html">Miami Cuban Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Curb Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Belcher Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Byzantine Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">ID Bracelet</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Bangles</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Rope Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Rolex Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Other Bracelets</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h3>Ladies Bracelets</h3>
+                                                <ul>
+                                                    <li><a class="dropdown-item" href="products.html">Belcher Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Curb Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Byzantine Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">ID Bracelet</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Rope Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Bangles</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Cuban Bracelets</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Rolex Bracelets</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-3">
+                                                <h3>Others Bracelets</h3>
+                                                <ul>
+                                                    <li><a class="dropdown-item" href="products.html">Children's Bracelets/Bangles</a></li>
+                                                    <li><a class="dropdown-item" href="products.html">Identity Bracelets</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-xl-3">
+                                            	<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                        	<img src="images/menu-bracelets-1.jpg" class="d-block w-100">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                        	<img src="images/menu-bracelets-2.jpg" class="d-block w-100">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                        	<img src="images/menu-bracelets-3.jpg" class="d-block w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a href="products.html" class="link-txt">View all Collection </a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">PENDANTS & CHARMS</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="products.html">Cross/Crucifix Pendants</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Boxing Glove Pendants</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Religious Pendants</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Other Pendants</a></li>
+                                    </ul>
+                                </li>  
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">EARRINGS</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="products.html">Studs</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Hoops</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Child / Baby Earrings</a></li>
+                                        <li><a class="dropdown-item" href="products.html">Drop / Dangle</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link mark" href="products.html">SALE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="menu-overlay"></div>
+            </div>
+        </div>
+        <!--
+        <div class="search-popup" id="searchPanel">
+            <div class="search-bg"></div>
+            <div class="search-form">
+                <form action="" class="search">
+                    <div class="form">
+                        <input type="text" id="search" placeholder="Search Here...">
+                        <ul class="results" >
+                            <li><a href="#">Search Result : Men's Rings<br /><span>At Hatton Jewellers we stock a wide range of solid gold rings for men, UK stock and available in white...</span></a></li>
+                            <li><a href="#">Search Result : Keeper Rings<br /><span>Explore our men’s gold keeper rings, available in solid 9ct yellow gold across a wide range of styles...</span></a></li>
+                            <li><a href="#">Search Result : Men's Rings<br /><span>At Hatton Jewellers we stock a wide range of solid gold rings for men, UK stock and available in white...</span></a></li>
+                            <li><a href="#">Search Result : Keeper Rings<br /><span>Explore our men’s gold keeper rings, available in solid 9ct yellow gold across a wide range of styles...</span></a></li>
+                        </ul>
+                        <button type="submit"><i class="fa fa-search"></i> Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>-->
+        
+        <div class="modal fade" id="logInModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button>
+                        
+                        <form name="" action="#" method="post">
+                            <h4 class="heading">Customer Login</h4>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="uname" placeholder="User Name / Email">
+                                <span class="focus-input" data-symbol="&#xf2c0;"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="pass" placeholder="Your Password">
+                                <span class="focus-input" data-symbol="&#xf023;"></span>
+                            </div>
+                            <a class="log-forgot" href="#">Forgot password?</a>
+                            <button class="page-btn hover-btn-dark" type="submit">Log In</button>
+                        </form><!--
+                        <div class="sign-with">
+                        	<p>Or Sign Up Using</p>
+                            <ul>
+                                <li class="facebook"><a href="#"></a></li>
+                                <li class="linkedin"><a href="#"></a></li>
+                                <li class="instagram"><a href="#"></a></li>
+                            </ul>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============================ Slider ====================================-->
+        <div id="main-slider">
+            <div id="carouselMainSlider" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-ride="carousel">
+            	<div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselMainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slider-1.jpg" class="d-block" style="width:100%">
+                        <div class="container">
+                            <div class="slide-content" data-animation-in="slideInRight" data-animation-out="animate-out fadeOut">
+                                <h5 class="sub-title">BEST BRITISH COLLECTON</h5>
+                                <h1 class="title"><span>Elegant Jewelry for</span> Elegant Moments</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-3.jpg" class="d-block" style="width:100%"><!--
+                        <div class="container">
+                            <div class="slide-content" data-animation-in="slideInRight" data-animation-out="animate-out fadeOut">
+                                <h5 class="sub-title">BEST BRITISH COLLECTON</h5>
+                                <h1 class="title"><span>Elegant Jewelry for</span> Elegant Moments</h1>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <div class="l-arrow"></div>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <div class="r-arrow"></div>
+                </button>
+            </div>
+        </div>
+        <!--============================ Order Facility ====================================-->
+        <div class="order-facility">
+            <p>FREE UK DELIVERY ON Orders Over &pound;100</p>
+            <p>FREE INSURANCE VALUAtion with every Order</p>
+            <!--<p>BITCOIN & CRYPTO PAYMENTS ACCEPTED</p>-->
+        </div>
+        <!--============================ Categories ====================================-->
+        <div class="categories">
+        	<div class="container">
+        		<h3 class="heading">POPULAR CATEGORIES</h3>
+                <div class="row">
+                    <div class="owl-carousel owl-theme" id="owl-cat">
+                        <div class="item">
+                            <a href="#">
+                            <div class="card cat">
+                                <div class="cat-img">
+                                    <img src="images/wedding-rings.svg">
+                                </div>
+                                <h5>Rings</h5>
+                                <div class="link-txt">Shop Now</div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                            <div class="card cat">
+                                <div class="cat-img">
+                                    <img src="images/chain.svg">
+                                </div>
+                                <h5>Chains</h5>
+                                <div class="link-txt">Shop Now</div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                            <div class="card cat">
+                                <div class="cat-img">
+                                    <img src="images/bracelet.svg">
+                                </div>
+                                <h5>Bracelets</h5>
+                                <div class="link-txt">Shop Now</div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                            <div class="card cat">
+                                <div class="cat-img">
+                                    <img src="images/pendant.svg">
+                                </div>
+                                <h5>Pendants & Charms</h5>
+                                <div class="link-txt">Shop Now</div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                            <div class="card cat">
+                                <div class="cat-img">
+                                    <img src="images/necklace.svg">
+                                </div>
+                                <h5>Necklaces</h5>
+                                <div class="link-txt">Shop Now</div>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                            <div class="card cat">
+                                <div class="cat-img">
+                                    <img src="images/earrings.svg">
+                                </div>
+                                <h5>Earrings</h5>
+                                <div class="link-txt">Shop Now</div>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============================ Offer ====================================-->
+        <div class="offer">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-xl-6 col-lg-12">
+                    	<a href="#">
+                            <div class="offer-card img-bg">
+                                <div class="offer-title">
+                                    <h4>Visit Our  Showroom</h4>
+                                    <div class="offer-btn hover-btn-dark">Browse Now</div>
+                                </div>
+                            </div>
+                    	</a>
+                    </div>
+                	<div class="col-xl-6 col-lg-12">
+                    	<a href="#">
+                            <div class="offer-card">
+                                <div class="offer-title">
+                                    <h4>Clearance</h4>
+                                    <h5>Get Upto</h5>
+                                </div>
+                                <div class="offer-details">
+                                    <h4>40% Off</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                                    <div class="offer-btn hover-btn-dark">Browse Now</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <!--============================ About Us ====================================-->
+        <div class="about">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-10 offset-lg-1">
+                        <div class="sec-head"></div>
+                        <h3 class="heading">HATTON GOLD JEWELLERY</h3>
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                        <div class="sec-foot"></div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <!--============================ Products ====================================--> 
+        <div class="products">
+        	<div class="container">
+                <h3 class="heading">TRENDING PRODUCTS</h3>
+                <div class="row">
+                    <div class="owl-carousel owl-theme" id="owl-pro">
+                        <div class="item">
+                            <div class="card pro">
+                                <div class="pro-img"><img src="images/pro_1.jpg"></div>
+                                <div class="pro-desc">9ct Yellow Gold 0.06ct Diamond & 0.50ct Blue Sapphire Eternity Ring</div>
+                                <div class="price">
+                                    <small>Starting at</small> £460.00
+                                </div>
+                                <div class="shop-btn">
+                                    <a href="#" class="cart-notify"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="product-details.html"><div class="page-btn hover-btn buy-btn">Select Option</div></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card pro">
+                                <div class="pro-img"><img src="images/pro_2.jpg"></div>
+                                <div class="pro-desc">9ct Yellow Gold 0.14ct Diamond & 0.31ct Blue Sapphire Eternity Ring</div>
+                                <div class="price">
+                                    <small>Starting at</small> £540.00
+                                </div>
+                                <div class="shop-btn">
+                                    <a href="#" class="cart-notify"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="product-details.html"><div class="page-btn hover-btn buy-btn">Select Option</div></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card pro">
+                                <div class="pro-img"><img src="images/pro_3.jpg"></div>
+                                <div class="pro-desc">9ct Yellow Gold Princess Cut 0.20ct Diamond & 0.35ct Blue Sapphire Eternity Ring</div>
+                                <div class="price">
+                                    <small>Starting at</small> £715.00
+                                </div>
+                                <div class="shop-btn">
+                                    <a href="#" class="cart-notify"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="product-details.html"><div class="page-btn hover-btn buy-btn">Select Option</div></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card pro">
+                                <div class="pro-img"><img src="images/pro_4.jpg"></div>
+                                <div class="pro-desc">9ct Yellow Gold 0.06ct Diamond & 0.50ct Blue Sapphire Eternity Ring</div>
+                                <div class="price">
+                                    <del>RRP: £150.00</del> £110.00
+                                </div>
+                                <div class="shop-btn">
+                                    <a href="#" class="cart-notify"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="product-details.html"><div class="page-btn hover-btn buy-btn">Select Option</div></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card pro">
+                                <div class="pro-img"><img src="images/pro_4.jpg"></div>
+                                <div class="pro-desc">9ct Yellow Gold 0.06ct Diamond & 0.50ct Blue Sapphire Eternity Ring</div>
+                                <div class="price">
+                                    <del>RRP: £150.00</del> £110.00
+                                </div>
+                                <div class="shop-btn">
+                                    <a href="#" class="cart-notify"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="#"><div class="icon"><span></span></div></a><a href="product-details.html"><div class="page-btn hover-btn buy-btn">Select Option</div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <!--============================ Reviews ====================================-->
+        <div class="review">
+        	<div class="container">
+                <h3 class="heading">SEE OUR WONDERFUL REVIEWS</h3>
+                <div class="row">
+                	<div class="rating">
+                    	<div class="owl-carousel owl-theme" id="owl-rate">
+                        	<div class="item">
+                            	<div class="card rate">
+                                	<div class="rate-pnl"><img class="star" src="images/star.png"> 3 Dys ago</div>
+                        			<h2 class="title review-title">Thank you Ruena in the</h2>
+                                    <p class="review-p">Thank you Ruena in the Cardiff store for all your help with purchasing a pendant...</p>
+                                    <h4 class="a-name">Steve Smith</h4>
+                                </div>
+                            </div>
+                        	<div class="item">
+                            	<div class="card rate">
+                                	<div class="rate-pnl"><img class="star" src="images/star.png"> 4 Dys ago</div>
+                        			<h2 class="title review-title">Perfect from the moment</h2>
+                                    <p class="review-p">Perfect from the moment we walked through the door until we collected the ring</p>
+                                    <h4 class="a-name">Paul Clarke</h4>
+                                </div>
+                            </div>
+                        	<div class="item">
+                            	<div class="card rate">
+                                	<div class="rate-pnl"><img class="star" src="images/star.png"> 10 November</div>
+                        			<h2 class="title review-title">We got both our wedding rings</h2>
+                                    <p class="review-p">We got both our wedding rings in the Glasgow store. The service we received was</p>
+                                    <h4 class="a-name">Nikita</h4>
+                                </div>
+                            </div>
+                        	<div class="item">
+                            	<div class="card rate">
+                                	<div class="rate-pnl"><img class="star" src="images/star.png"> 3 Dys ago</div>
+                        			<h2 class="title review-title">Thank you Ruena in the</h2>
+                                    <p class="review-p">Thank you Ruena in the Cardiff store for all your help with purchasing a pendant</p>
+                                    <h4 class="a-name">Steve Smith</h4>
+                                </div>
+                            </div>
+                        	<div class="item">
+                            	<div class="card rate">
+                                	<div class="rate-pnl"><img class="star" src="images/star.png"> 4 Dys ago</div>
+                        			<h2 class="title review-title">Perfect from the moment</h2>
+                                    <p class="review-p">Perfect from the moment we walked through the door until we collected the ring</p>
+                                    <h4 class="a-name">Paul Clarke</h4>
+                                </div>
+                            </div>
+                        	<div class="item">
+                            	<div class="card rate">
+                                	<div class="rate-pnl"><img class="star" src="images/star.png"> 10 November</div>
+                        			<h2 class="title review-title">We got both our wedding rings</h2>
+                                    <p class="review-p">We got both our wedding rings in the Glasgow store. The service we received was</p>
+                                    <h4 class="a-name">Nikita</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Rated <strong>4.9</strong>  / 5 based on <u>2,223 reviews</u>. Showing our 4 & 5 star reviews.</h5>
+        	</div>
+        </div>
+        <!--============================ Partner ====================================-->
+        <div class="partner">
+        	<div class="container">
+                <h3 class="heading">AS SEEN IN & PARTNERED WITH</h3>
+                <div class="row">
+                	<div class="owl-carousel owl-theme" id="owl-brand">
+                    	<div class="item">
+                        	<img src="images/brand-1.png">
+                        </div>
+                    	<div class="item">
+                        	<img src="images/brand-2.png">
+                        </div>
+                    	<div class="item">
+                        	<img src="images/brand-3.png">
+                        </div>
+                    	<div class="item">
+                        	<img src="images/brand-4.png">
+                        </div>
+                    	<div class="item">
+                        	<img src="images/brand-5.png">
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <!--============================ Subscribe ====================================-->
+        <div class="subscribe">
+        	<div class="container">
+            	<div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <h3>Subscribe</h3>
+                        <p>Please subscribe for News & Special Offers</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <form class="subs-form">
+                        	<div class="form-group">
+                                <input class="form-control" type="email" placeholder="Enter your email address">
+                                <button class="form-control page-btn hover-btn-light" type="submit">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <!--============================ Footer ====================================-->
+        <div class="footer">
+        	<div class="container">
+            	<div class="top-footer">
+                	<div class="row">
+                    	<div class="col-xl-3 col-md-4">
+                        	<img class="f-logo" src="images/f-logo.png">
+                            <p>34-35 HATTON GARDEN, LONDON,
+                            EC1N 8DX.</p>
+                            <p>VAT REG.. NO 680 762 613.</p>
+                        </div>
+                    	<div class="col-xl-2 col-md-4 col-sm-6">
+                        	<h4>Contact Us</h4>
+                            <ul class="contact">
+                            	<li>Phone <a href="tel:+442072422884"><span>+44 (0) 20 7242 2884</span></a></li>
+                                <li>Email <a href="mailto:sales@hattongold.co.uk "><span>sales@hattongold.co.uk </span></a></li>
+                            </ul>
+                        </div>
+                    	<div class="col-xl-2 col-md-4 col-sm-6">
+                        	<h4>MY ACCOUNT</h4>
+                            <ul>
+                            	<li><a href="#">Login/Register</a></li>
+                                <li><a href="#">Delivery Policy</a></li>
+                                <li><a href="#">Payments Methods</a></li>
+                                <li><a href="#">Useful Information</a></li>
+                                <li><a href="#">Jewellery User Guides</a></li>
+                            </ul>
+                        </div>
+                    	<div class="col-xl-2 col-md-8">
+                        	<h4>USEFUL LINKS</h4>
+                            <ul class="xl-link">
+                            	<li><a href="about-us.html">About Us</a></li>
+                                <li><a href="products.html">Sale</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="#">FAQ’s</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="shipping-delivery.html">Shipping & Delivery</a></li>
+                                <li><a href="returns.html">Returns & Refunds</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    	<div class="col-xl-3 col-md-4">
+                        	<h4>OPENING HOURS</h4>
+                            <ul>
+                            	<li>Monday - Friday : 9 a.m. - 5.30 p.m.</li>
+                                <li>Saturday :  9:30 a.m. - 5.30 p.m.</li>
+                        	</ul>
+                        </div>
+                    </div>
+            	</div>
+                <div class="mdl-footer">
+                	<div class="row">
+                    	<div class="col-lg-6">
+                        	<div class="social">
+                            	<ul>
+                                	<li><p>Follow Us</p></li>
+                                	<li class="facebook"><a href="#"></a></li>
+                                	<li class="linkedin"><a href="#"></a></li>
+                                	<li class="instagram"><a href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                        	<div class="payment">
+                            	<ul>
+                                	<li><img src="images/payment-1.png"></li>
+                                	<li><img src="images/payment-2.png"></li>
+                                	<li><img src="images/payment-3.png"></li>
+                                	<li><img src="images/payment-4.png"></li>
+                                	<li><img src="images/payment-5.png"></li>
+                                	<li><img src="images/payment-6.png"></li>
+                                	<li><img src="images/payment-7.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="btm-footer">
+            	<div class="container">
+                    <p>©2021, HATTON GOLD. All rights reserved. | Reg. office: 34-35 HATTON GARDEN, LONDON, EC1N 8DX. | VAT Reg.. No 680 762 613.</p>
+                    <p>DESIGN BY <a href="#">WEBPLUS</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <!--============================ Sidebar ====================================-->
+        <div id="sidebar">
+            <ul>
+                <li class="facebook"><a href="#"></a></li>
+                <li class="linkedin"><a href="#"></a></li>
+                <li class="instagram"><a href="#"></a></li>
+            </ul>
+        </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+        <script src="https://themesberg.com/docs/spaces/assets/vendor/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+        <script src="js/script.js"></script>
+	</body>
+
+<!-- Mirrored from demo.webplusinfotech.net/hattongold/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2022 03:29:03 GMT -->
+</html>
